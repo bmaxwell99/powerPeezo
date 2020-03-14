@@ -1,0 +1,46 @@
+{
+    "startDate": "2/1/2020",
+    "dailyBudget": 25,
+    "tagList": [
+        "food","fitness","social","hobbies","gas","parking"
+    ],
+    "entries": [
+        {
+            "amount": 3.25,
+            "description": "Coffee",
+            "date": "2/5/2020",
+            "tag": "food"
+        },
+        {
+            "amount": 15,
+            "description": "Yoga",
+            "date": "2/6/2020",
+            "tag": "fitness"
+        },
+        {
+            "amount": 17.51,
+            "description": "Teriyaki",
+            "date": "2/6/2020",
+            "tag": "food"
+        },
+        {
+            "amount": 9.03,
+            "description": "Trader Joes",
+            "date": "2/8/2020",
+            "tag": "food"
+        },
+        {
+            "amount": 27.07,
+            "description": "",
+            "date": "2/9/2020",
+            "tag": "gas"
+        },
+        {
+            "amount": 7.5,
+            "description": "Drinks w Josh",
+            "date": "2/10/2020",
+            "tag": "social"
+        }
+    ]
+
+}

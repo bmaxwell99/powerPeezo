@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Bradley and Maxwell">
+    <meta name="description" content="Free budget and financial management application">
+    <!-- link in Bootstrap here -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="css/mystyle.css" rel="stylesheet">
+    <link rel="icon" href="img/logo.png">
+    <title>Entry - Solutions</title>
+</head>
+
+<body class="background">
+    <header>
+        <!-- Nav Bar Code -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <img src="./img/logo.png" class="logo" alt="brand logo for app Solutions">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <a class="navbar-brand" href="./entry.html">Solutions.</a>
+            </div>
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="./entry.html">Entry<span class="sr-only">(current)</span></a>
+            </div>
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="./index.html">Status</a>
+            </div>
+            <!-- <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#">Trends</a>
+            </div> -->
+
+
+        </nav>
+        <!-- End Nav Bar Code -->
+    </header>
+    <main>
+        <section>
+            <div class="enter_mess">
+                <h1>Entry Form</h1>
+                <p class="info">Add the expense amount and the category to get started! Date will default to today, to
+                encourage entering expenses on the fly.
+                </p>
+            </div>
+        </section>
+        <section>
+            <form name="myForm" novalidate>
+                <div class="row d-flex">
+                    <!-- begin form row -->
+                    <div class="card-form bg-secondary card d-flex col-7 col-md-12 form-control-inline margin">
+                        <!-- entry form col begin -->
+                        <!-- Amount Entry -->
+                        <div class="form-box">
+                            <input id="amount-input" type="number" class="form-control" placeholder="Amount*" required>
+                            <div class="invalid-feedback">Required!</div>
+                        </div>
+                        <!-- Description Entry -->
+                        <div class="form-box">
+                            <input id="description-input" type="text" class="form-control" placeholder="Description">
+                        </div>
+                        <!-- Date Entry -->
+                        <div class="form-box">
+                            <input id="date-input" type="date" class="form-control" placeholder="Date">
+                        </div>
+
+                    </div><!-- entry form col end -->
+                    <div class="card-form card text-light bg-secondary d-flex border-secondary col-5 col-md-12 margin">
+                        <!-- Metatag col -->
+                        <legend class="col-form-label pt-0">Tag*</legend>
+                        <div class="col-sm-10 form-control-inline radios">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" name="gridRadiosLabels" for="gridRadios1">Food
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                    value="option2">
+                                <label class="form-check-label" name="gridRadiosLabels" for="gridRadios2">Social
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3"
+                                    value="option2">
+                                <label class="form-check-label" name="gridRadiosLabels" for="gridRadios3">Gas
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4"
+                                    value="option2">
+                                <label class="form-check-label" name="gridRadiosLabels" for="gridRadios4">Parking
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5"
+                                    value="option2">
+                                <label class="form-check-label" name="gridRadiosLabels" for="gridRadios5">Fitness
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios6"
+                                    value="option2">
+                                <label class="form-check-label" name="gridRadiosLabels" for="gridRadios6">Books
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios7"
+                                    value="option2">
+                                <label class="form-check-label" name="gridRadiosLabels" for="gridRadios7">Toys!
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios8"
+                                    value="option2">
+                                <label class="form-check-label" name="gridRadiosLabels" for="gridRadios8">Toiletries
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios9"
+                                    value="option2">
+                                <label class="form-check-label" name="gridRadiosLabels" for="gridRadios9">Misc
+                                </label>
+                            </div>
+
+                        </div>
+                    </div><!-- col end -->
+                </div><!-- form row end -->
+                
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-block btn-dark margin">Submit!</button>
+        
+            </form>
+        </section>
+        <section class="bg-secondary card margin history">
+            <!-- header for the history of inputed entries -->
+            <div class="container ">
+                <div class="row history-header">
+                    <div class="col-sm">
+                        Date
+                    </div>
+                    <div class="col-sm">
+                        Amount
+                    </div>
+                    <div class="col-sm">
+                        Tag
+                    </div>
+                    <div class="col-sm">
+                        Description
+                    </div>
+                </div>
+                <div class="row first-entry">
+                    <div class="col-sm date-history">
+                        Date
+                    </div>
+                    <div class="col-sm date-amount">
+                        Amount
+                    </div>
+                    <div class="col-sm date-tag">
+                        Tag
+                    </div>
+                    <div class="col-sm date-description">
+                        Description
+                    </div>
+                </div>
+                <!-- Second most recent entry -->
+                <div class="row second-entry">
+                    <div class="col-sm">
+                        Date
+                    </div>
+                    <div class="col-sm">
+                        Amount
+                    </div>
+                    <div class="col-sm">
+                        Tag
+                    </div>
+                    <div class="col-sm">
+                        Description
+                    </div>
+                </div>
+                <!-- Third most recent entry -->
+                <div class="row third-entry">
+                    <div class="col-sm">
+                        Date
+                    </div>
+                    <div class="col-sm">
+                        Amount
+                    </div>
+                    <div class="col-sm">
+                        Tag
+                    </div>
+                    <div class="col-sm">
+                        Description
+                    </div>
+                </div>
+                <!-- Fourth most recent entry -->
+                <div class="row fourth-entry">
+                    <div class="col-sm">
+                        Date
+                    </div>
+                    <div class="col-sm">
+                        Amount
+                    </div>
+                    <div class="col-sm">
+                        Tag
+                    </div>
+                    <div class="col-sm">
+                        Description
+                    </div>
+                </div>
+                <!-- Fifth most recent entry -->
+                <div class="row fifth-entry">
+                    <div class="col-sm">
+                        Date
+                    </div>
+                    <div class="col-sm">
+                        Amount
+                    </div>
+                    <div class="col-sm">
+                        Tag
+                    </div>
+                    <div class="col-sm">
+                        Description
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+            <!-- Submit button -->
+            <button id="#unsubmit" type="button" class="btn btn-block btn-dark margin">Unsubmit?</button>
+
+    </main>
+    <!-- Javascript input! -->
+    <script src="Stage2/interaction.js"></script>
+
+    <footer>
+        <p>This app was created for you, making budgeting easy.</p>
+        <address>
+            Contact me at <a href="mailto:bradlw12@uw.edu">bradlw12@uw</a>
+        </address>
+        <p>&copy; 2020 Bradley and Maxwell.</p>
+    </footer>
+</body>
+
+</html>

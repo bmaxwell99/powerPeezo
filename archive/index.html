@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Bradley and Maxwell">
+  <title>Budgeting - Solutions</title>
+  <meta name="description" content="Free budget and financial management application">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/mystyle.css">
+  <link rel="icon" href="img/logo.png">
+</head>
+
+<body>
+    <header>
+
+    <!-- Nav Bar Code -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <img src="./img/logo.png" class="logo" alt="brand logo for Solutions">
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <a class="navbar-brand" href="./entry.html">Solutions.</a>
+      </div>
+      <div class="navbar-nav">
+          <a class="nav-item nav-link" href="./entry.html">Entry</a> </div>
+      <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="./index.html">Status<span class="sr-only">(current)</span></a>
+      </div>
+      <!-- <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#">Trends</a>
+      </div> -->
+  </nav>
+  </header>
+  <!-- End Nav Bar Code -->
+
+    <main>
+        <section>
+        <div class="title_mess">
+            <h1><strong>Welcome to Budgeter!</strong></h1>
+            <p>Watch and finance the most common categories of expenses here. 
+                We gave you some guidelines, make sure to adjust to fit your needs.
+                Try not to, but if you must,
+                you are able to update your budget at any time! 
+            </p>
+        </div>
+        </section>
+        <section>
+        <div class="totals-content">
+            <!-- <div class="total week">
+                <h1 class="expense">$102.00</h1>
+                <p class="label">Total Expense this Week</p>
+            </div> -->
+            <div class="total month">
+                <h2 class="expense">Current Budgets</h2>
+                <p class="label">Check 'Entry' to see your recent purchases</p>
+            </div>
+            <!-- <div class="total all">
+                <h1 class="expense">$1,316.00</h1>
+                <p class="label">Total Expense All-Time</p>
+            </div> -->
+        </div>
+        </section>
+        
+        <section>
+        <div class="container">
+            <div class="row ">
+                <!-- Gas -->
+                <div class="col-md-6 col-xl-3 d-flex">
+                    <div class="card mb-4 border-secondary">
+                        <div class="card-body bg-secondary ">
+                            <h2 class="card-title">Gas</h2>
+                            <img src="./img/gas.png" class="image" alt="gas container">
+                            <h3 class="budg_left1 pb-3">Budget: $100</h3>
+                            <p class="card-text"><em>Our Tip: </em>This should be a consistent category 
+                                with the exception of a long trip every so often. Make sure you
+                                aren't consistently going over budget (if you are... maybe buy a bike)
+                            </p>
+                            Typical Purchases    
+                            <ul>
+                                <li>$12 <em>"Shell"</em></li>
+                                <li>$26 <em>"Before commute"</em></li>
+                                <li>$14 <em>"Topped it off"</em></li>
+                            </ul>
+                            <div class="budget_fix">
+                                $ <input id="budget_change1" placeholder="0.00" name="budget">
+                                <a href="#" class="update1 btn btn-dark">Update budget</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Food -->
+                
+                <div class="col-md-6 col-xl-3 d-flex">
+                    <div class="card mb-4 border-secondary">
+                        <div class="card-body bg-secondary">
+                            <h2 class="card-title">Food</h2>
+                            <img src="./img/food.jpeg" class="image" alt="sandwich">
+                            <h3 class="budg_left2 pb-3">Budget: $250</h3>
+                            <p class="card-text"><em>Our Tip: </em>Food is something entirely under your
+                            control. Make sure to only buy what you need and cook for yourself when you can!</p>
+                            Typical Purchases    
+                            <ul>
+                                <li>$10 <em>"Lunch"</em></li>
+                                <li>$42 <em>"Date Night"</em></li>
+                                <li>$7 <em>"McDonalds"</em></li>
+                            </ul>
+                            <div class="budget_fix">
+                                $ <input id="budget_change2" placeholder="0.00" name="budget">
+                                <a href="#" class="update2 btn btn-dark">Update budget</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Bills -->
+                
+                <div class="col-md-6 col-xl-3 d-flex">
+                    <div class="card mb-4 border-secondary">
+                        <div class="card-body bg-secondary">
+                            <h2 class="card-title">Bills</h2>
+                            <img src="./img/house.png" class="image" alt="emoji of a house">
+                            <h3 class="budg_left3 pb-3">Budget: $450</h3>
+                            <p class="card-text"><em>Our Tip: </em>Not anyone's favorite thing. Unfortunately,
+                            bills have to be paid, so make sure to get them in on time or more will come. Remember
+                            to make the budget work for you because no one pays the same.
+                            </p>
+                            Typical Purchases    
+                            <ul>
+                                <li>$100 <em>"Morgage"</em></li>
+                                <li>$52 <em>"Car Insurance"</em></li>
+                                <li>$100 <em>"Utilities"</em></li>
+                            </ul>
+                            <div class="budget_fix">
+                                $ <input id="budget_change3" placeholder="0.00" name="budget">
+                                <a href="#" class="update3 btn btn-dark">Update budget</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Other -->
+                
+                <div class="col-md-6 col-xl-3 d-flex">
+                    <div class="card mb-4 border-secondary">
+                        <div class="card-body bg-secondary">
+                            <h2 class="card-title">Other</h2>
+                            <img src="./img/money.png" class="image" alt="money with wings emoji">
+                            <h3 class="budg_left4 pb-3">Budget: $300</h3>
+                            <p class="card-text"><em>Our Tip: </em>Try and treat yourself when the budget
+                            allows! Everyone needs that extra boost and this is where to do it. Just
+                            don't go too overboard with that mancave...
+                            </p>
+                            Typical Purchases    
+                            <ul>
+                                <li>$9 <em>"Flowers"</em></li>
+                                <li>$26 <em>"Bookstore"</em></li>
+                                <li>$30 <em>"Concert Tickets"</em></li>
+                            </ul>
+                            <div class="budget_fix">
+                                $ <input id="budget_change4" placeholder="0.00" name="budget">
+                                <a href="#" class="update4 btn btn-dark">Update budget</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    <script src="Stage2/budgeter.js"></script>
+    <!-- <script src="Stage2/interaction.js"></script> -->
+    <footer>
+        <p>This app was created for you, making budgeting easy.</p>
+        <address>
+            Contact me at <a href="mailto:bradlw12@uw.edu">bradlw12@uw</a>
+        </address>
+        <p>&copy; 2020 Bradley and Maxwell.</p>
+    </footer>
+</body>
+
+</html>

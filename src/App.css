@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body { 
+    background-color: #c6c8ca;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.container {
+    border-radius: 1em; 
+    box-shadow: 1em;
+}
+
+.box {
+    width: 90%;
+    margin: 1em auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 25px;
+    margin-right: 0.5em;
+}
+
+.info {
+    padding-top: 2rem;
+}
+
+.card-title {
+    display: none;
+} 
+
+.image {
+    display: block;
+    max-width: 75px;
+}
+
+.card {
+    color: rgb(223, 222, 222);
+    
+}
+
+.card-form {
+    padding: 1rem;
+    margin: .5rem;
+    margin-left: 1rem;
+    justify-content: center;
+}
+
+.card-text {
+    display: none;
+}
+
+.totals-content {
+    display: flex;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.total {
+    margin: 1rem;
+}
+
+.expense {
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+}
+
+.label {
+    font-size: 20px;
+}
+
+.budget-fix {
+    display: inline-flex
+}
+
+.form-box{
+    margin-top: auto;
+    margin-bottom: auto;
+    /* margin-left: 1em;
+    margin-right: 1em; */
+    /* padding: .5rem; */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 1rem;
+}
+
+.form-check{
+    margin-bottom: .3em;
+}
+
+footer {
+    padding: 2rem;
+}
+
+.btn {
+    margin-bottom: 1rem;
+}
+
+
+
+@media (min-width: 768px) {
+    .box {
+        width: 30%;
+        margin: 1em auto;
+    }
+
+    .form-box{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 1em;
+        margin-right: 1em;
+        padding: .5rem;
+    }
+
+    .d-flex .form-control-inline{
+        display: inline-flex;
+        flex-flow: row wrap;
+    }    
+    
+    .form-check-label{
+        margin-left: .25rem;
+        margin-right: .5rem;
+    }
+
+    .nav-link {
+        padding: 1em;
+    }
+
+    .card-title {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    .image {
+        display: none;
+    }
+    
+    .card-text {
+        display: block;
+    }
+}
