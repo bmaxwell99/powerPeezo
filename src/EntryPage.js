@@ -8,8 +8,8 @@ export default class EntryPage extends Component {
     render() {
       return (
         <div>
-            <EntryForm entries={this.props.entries} taglist={this.props.taglist} startDate={this.props.startDate} dailyBudget={this.props.dailyBudget} addEntryToMain={this.props.addEntryToMain}/>
-            <RecentHistory entries={this.props.entries} taglist={this.props.taglist} startDate={this.props.startDate} dailyBudget={this.props.dailyBudget} unsubmitClicked={this.props.unsubmitClicked} toggleRadio={this.props.toggleRadio}/>
+            <EntryForm  currentUser={this.props.currentUser} entries={this.props.entries} taglist={this.props.taglist} startDate={this.props.startDate} dailyBudget={this.props.dailyBudget} addEntryToMain={this.props.addEntryToMain}/>
+            <RecentHistory currentUser={this.props.currentUser} entries={this.props.entries} taglist={this.props.taglist} startDate={this.props.startDate} dailyBudget={this.props.dailyBudget} unsubmitClicked={this.props.unsubmitClicked} toggleRadio={this.props.toggleRadio}/>
         </div>
       )
       }

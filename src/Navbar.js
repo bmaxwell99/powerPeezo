@@ -20,7 +20,9 @@ export default class Nav extends Component {
           <div className="navbar-nav">
             <NavLink exact to="/Status" className="nav-item nav-link">Status</NavLink>
           </div><div className="navbar-nav">
-           <NavLink exact to="/visuals" className="nav-item nav-link">Visuals</NavLink>
+            <div className="visual"> 
+              <NavLink exact to="/visuals" className="nav-item nav-link">Visuals</NavLink>
+            </div>
           </div>
         </nav>
       )

@@ -15,6 +15,10 @@ main {
     box-shadow: 1em;
 }
 
+.welcome {
+    padding: 1.5rem;
+}
+
 .box {
     width: 90%;
     margin: 1em auto;
@@ -24,6 +28,11 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.money {
+    display: none;
+    max-width: 100px;
 }
 
 .logo {
@@ -39,11 +48,6 @@ main {
     display: none;
 } 
 
-.image {
-    display: block;
-    max-width: 75px;
-}
-
 .card {
     color: rgb(223, 222, 222);
     
@@ -52,7 +56,6 @@ main {
 .card-form {
     padding: 1rem;
     margin: .5rem;
-    margin-left: 1rem;
     justify-content: center;
 }
 
@@ -62,11 +65,14 @@ main {
 
 .totals-content {
     display: flex;
-    padding-top: 2rem;
     text-align: center;
     font-size: 2px;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.visual {
+    display: none;
 }
 
 .total {
@@ -93,10 +99,15 @@ main {
     /* padding: .5rem; */
 }
 
+.pics {
+    max-width: 100px;
+    justify-content: center;
+    display: none;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-right: 1rem;
 }
 
 .form-check{
@@ -111,7 +122,16 @@ footer {
     margin-bottom: 1rem;
 }
 
+.tips {
+    padding: 2rem;
+}
 
+.desc {
+    display: none;
+}
+.tip:hover .desc {
+    display: block;
+}
 
 @media (min-width: 768px) {
     .box {
@@ -144,14 +164,27 @@ footer {
     .card-title {
         display: block;
     }
+
+    .visual {
+        display: block;
+    }
+
+    .money {
+        display: block;
+    }
 }
 
 @media (min-width: 992px) {
-    .image {
-        display: none;
-    }
-    
     .card-text {
         display: block;
+    }
+
+    .pics {
+        display: block;
+    }
+
+    .picwrap {
+        padding: 1rem;
+        justify-content: center;
     }
 }

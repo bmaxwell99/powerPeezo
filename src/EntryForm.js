@@ -3,6 +3,16 @@ import React, { Component } from 'react';
 import {FormGroup, Label, Input } from 'reactstrap';
 import './App.css';
 
+
+import 'firebase/database';
+
+/* COPY THIS LINE OF CODE INTO THE FUNCTION WHERE U POST NEW EXPENSES!!! */
+
+
+
+//From there you can update the Expenses as needed as follow
+//expenseRef.push(newExpense); // Where new expense is whatever u set it to be
+
 export default class EntryForm extends Component {
   constructor(props) {
     super(props);
