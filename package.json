@@ -7,7 +7,7 @@
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
-    "firebase": "^7.11.0",
+    "firebase": "^10.9.0",
     "install": "^0.13.0",
     "jest-style-matchers": "^0.1.2",
     "npm": "^6.13.7",
